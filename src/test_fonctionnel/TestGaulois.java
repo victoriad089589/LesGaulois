@@ -8,7 +8,9 @@ public class TestGaulois {
 		Gaulois asterix = new Gaulois("Asterix", 8);
 		Gaulois obelix = new Gaulois("Obelix", 16);
 		
-		System.out.println(prendreParole(asterix)+parler("Bonjour Obelix."))
+		asterix.parler("Bonjour Obelix.");
+		
+		
 		
 
 	}
