@@ -22,8 +22,14 @@ public class Romain {
 	}
 
 	public void recevoirCoup(int forceCoup) {
-		self.force = set.force - forceCoup;
-		forceCoup = self.force/3;
+		this.force = this.force - forceCoup;
+		forceCoup = this.force/3;
+		
+		if (this.force == 0){
+			parler("J'abandonne!");
+		} else {
+			parler("Aie!");
+		}
 		
 		
 	}
