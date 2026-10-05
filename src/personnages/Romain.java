@@ -21,4 +21,11 @@ public class Romain {
 		return "Le romain" + nom + ":";
 	}
 
+	public void recevoirCoup(int forceCoup) {
+		self.force = set.force - forceCoup;
+		forceCoup = self.force/3;
+		
+		
+	}
+
 }
